@@ -107,6 +107,7 @@ void loop() {
   
   } else {
     
+    // this used to have a set of randomized left ear, right ear, and both ear wiggles, but it got stuck in a loop.
     WiggleEars(3);
     attention = 85;
     delay(2000);

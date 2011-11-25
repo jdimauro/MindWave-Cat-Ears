@@ -24,10 +24,6 @@
 #define BAUDRATE 115200 // the wireless dongle operates at 115.2 Kbps
 #define DEBUGOUTPUT 0   // set to 1 if you want to debug
 
-// put a 10K potentiometer on analog pin 0 
-// and uncomment the following line to simulate "attention" when tuning movement:
-// #define attentionPin 0 
-
 // checksum variables
 byte generatedChecksum = 0;
 byte checksum = 0;
@@ -42,7 +38,7 @@ int meditation = 0;
 unsigned long lastReceivedPacket = 0;
 boolean bigPacket = false;
 
-// Servos for Project Catgirl
+// Cat ear servos 
 
 #include <Servo.h>
 
