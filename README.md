@@ -20,7 +20,7 @@ Usage
 
 See the [Assembly Instructions][3] for full usage and instructions. 
 
-### CAUTION ### 
+### CAUTION ###
 
 As of Friday, November 25, 2011 the assembly instructions are only partially written. 
 
