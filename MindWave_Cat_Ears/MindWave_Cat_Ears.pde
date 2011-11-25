@@ -8,15 +8,9 @@
 // example distributed with the Arduino Servo library
 // 
 // Joshua DiMauro and Jeff Cutler, 2011
-// 
-// TODO LIST:
-// 
-// 1. make it easier to swap in a potentiometer to tune ear movement without a headset
-// 2. re-work the servo positioning code to make it easier to tune
-// 3. re-write the movement code to make movement less jerky 
-// 4. re-write the movement function so it doesn't block the main loop
-// 5. move to using the ITP "Brain" library
-// 6. use randomized ear wiggle events at high attention (this was removed due to crashing)
+//
+// https://github.com/jdimauro/MindWave-Cat-Ears
+//
 ////////////////////////////////////////////////////////////////////
 
 
@@ -57,7 +51,10 @@ int lp_min = 1800;  // pointed all the way to the side
 int lt_min = 1650;  // about ten degrees above horizontal
 int rp_min = 700;   // 
 int rt_min = 850;   // 
-                       
+
+// TODO: add a "range_pan" and "range_tilt" variable so that you only have to specify
+// minimum value and specify max variables by adding/subtracting the range vars. 
+
 // maximums            expected position
 int lp_max = 1100;  // pointed forwards and just a tiny bit "in"
 int lt_max = 1950;  // standing straight up, a bit "back"
