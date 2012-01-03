@@ -53,9 +53,9 @@ int rt_max = 550;   //
 
 
 int att_high = 67;  // make ears stay up when "high enough"
-int att_lo = 5;     // if high and lo are closer together, range of movement is reduced
-int att_sup = 87;   // reduce this to make the ears easier to wiggle
-int old_att = 0;
+int att_lo 	 = 5;     // if high and lo are closer together, range of movement is reduced
+int att_sup  = 87;   // reduce this to make the ears easier to wiggle
+int old_att  = 0;
 
 //////////////////////////
 // Microprocessor Setup //
