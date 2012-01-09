@@ -74,10 +74,10 @@ void setup() {
   // make random() function return non-repeatable random value
   randomSeed(analogRead(1));
 
-  r_tilt.attach(3);
-  r_pan.attach(4);  
-  l_tilt.attach(5); 
-  l_pan.attach(6);
+  r_tilt.attach(2);
+  r_pan.attach(3);  
+  l_tilt.attach(4); 
+  l_pan.attach(5);
 
   WiggleEars(2);
   SweepToPosition(lp_max, lt_max, rp_max, rt_max, 100);
